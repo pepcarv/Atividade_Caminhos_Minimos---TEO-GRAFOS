@@ -3,7 +3,9 @@ Alunos:
 - Pedro Henrique Carvalho Pereira - 10418861
 - Mateus Ribeiro Cerqueira - 10443901
 
-
+Compilação e exec:
+javac GrafoMatriz/*.java
+java GrafoMatriz.TesteGrafoMatriz
 
 Notas:
 Ao procurar no google como armazenar numeros em ordem automaticamente, a IA
@@ -164,8 +166,8 @@ public class TGrafo {
 		
 		
 		for (int i = 0; i < n; i++) {
-			linhaRot += String.format("| %2d ", rot[i]);
-			linhaVert += String.format("| %2d ", i + 1);
+			linhaRot += String.format("| %d ", rot[i]);
+			linhaVert += String.format("| %d ", i + 1);
 		}
 		
 		

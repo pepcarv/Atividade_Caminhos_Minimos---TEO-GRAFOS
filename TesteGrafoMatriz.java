@@ -3,6 +3,10 @@ Alunos:
 - Pedro Henrique Carvalho Pereira - 10418861
 - Mateus Ribeiro Cerqueira - 10443901
 
+Compilação e exec:
+javac GrafoMatriz/*.java
+java GrafoMatriz.TesteGrafoMatriz
+
 */
 
 package GrafoMatriz;
