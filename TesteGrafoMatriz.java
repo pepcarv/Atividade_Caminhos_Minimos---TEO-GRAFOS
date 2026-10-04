@@ -4,12 +4,11 @@ Alunos:
 - Mateus Ribeiro Cerqueira - 10443901
 
 Compilação e exec:
-javac GrafoMatriz/*.java
-java GrafoMatriz.TesteGrafoMatriz
+rm -rf *.class GrafoMatriz
+javac TGrafo.java TesteGrafoMatriz.java
+java TesteGrafoMatriz
 
 */
-
-package GrafoMatriz;
 
 public class TesteGrafoMatriz {
 	public static void main(String args[]) {
